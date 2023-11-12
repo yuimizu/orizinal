@@ -1,0 +1,41 @@
+
+img{
+    width: 100%;
+}
+
+.inner{
+    max-width: 1280px;
+}
+
+.logo{
+    width: 274px;
+    height: 56px;
+}
+
+.main-visual{
+    width: 500px;
+    height: 500px;
+}
+
+.music-img{
+    width: 250px;
+    height: 250px;
+}
+
+.summary{
+    display: flex;
+}
+
+dl{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.towel-img{
+    width: 500px;
+    height: 500px;
+}
