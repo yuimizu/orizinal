@@ -32,7 +32,8 @@ img{
 .main-visual p{
     margin-top: 20px;
     font-family: 'Dancing Script', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
+    color: #696969;
 }
 
 .section-title{
@@ -91,7 +92,7 @@ dd{
 
 .towel{
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 
 .flex{
@@ -101,16 +102,18 @@ dd{
     
 }
 
+.towel-item{
+    margin-top: 50px;
+}
+
 .towel-img{
     width: 500px;
     height: 500px;
     border-radius: 20px;
-    margin-top: 50px;
 }
 
 .towel-item p{
     margin-top: 10px;
-
 }
 
 footer{
@@ -123,7 +126,7 @@ footer{
     width: calc(100% / 3);
     text-align: center;
     margin: 50px 15px;
-    padding: 10px 10px 20px 10px;
+    padding: 10px 10px 25px 10px;
     border-radius: 20px;
 }
 
@@ -136,4 +139,8 @@ footer{
 li{
     list-style: none;
     margin: 0 10px 0 10px;
+}
+
+a{
+    text-decoration: none;
 }
