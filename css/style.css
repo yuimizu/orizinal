@@ -91,7 +91,7 @@ dd{
 }
 
 .towel{
-    max-width: 1100px;
+    max-width: 1110px;
     margin: 0 auto 100px auto;
 }
 
@@ -143,4 +143,35 @@ li{
 
 a{
     text-decoration: none;
+}
+
+@media(max-width: 896px){
+    .inner{
+        max-width: 700px;
+    }
+
+    .music-item {
+        width: 600px;
+    }
+
+    .music-img {
+        margin-right: 60px;
+    }
+
+    .heading{
+        font-size: 1.5rem;
+    }
+
+    dt{
+        width: 45%;
+    }
+
+    dd{
+        width: 55%;
+    }
+
+    .flex{
+        flex-direction: column;
+        align-items: center;
+    }
 }
